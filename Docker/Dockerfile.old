@@ -1,4 +1,4 @@
-FROM python:3.7-alpine3.16
+FROM python:3.6.9-alpine3.9
 RUN apk update && apk upgrade --no-cache
 COPY src /src
 WORKDIR /src
