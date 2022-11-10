@@ -4,6 +4,6 @@ After you build the container, to run the container to scan vulnerable jar files
 
 1 - CD into the folder you wish to scan
 
-2 - docker run --rm -v $(pwd):/tmp <name of container you have built> /tmp
+2 - docker run --rm -v $(pwd):/tmp "your container name" /tmp
 
 A sample vulnerable jar has been added to this repo (text4shell-poc-0.0.1-SNAPSHOT.jar) for testing purposes.
